@@ -1,0 +1,128 @@
+html {
+  background-color: #f5f0e1;
+  /* background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%); */
+  background: -webkit-linear-gradient(#f5f0e1);
+  /* 115deg,#8AAAE5 50%, */
+  min-height: 1000px;
+  /* background:
+  linear-gradient(135deg, #6883BC 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+  linear-gradient(225deg, #6883BC 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+  background-color:#6883BC;
+  background-size: 64px 128px; */
+  /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 300s ease infinite;
+	height: 100vh;
+  font-family: 'helvetica neue'; */
+
+    position: relative;
+
+}
+
+
+h1 {
+  color: #fff;
+  padding: 10px;
+}
+
+.box {
+  max-width: 400px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px #1e3d59;
+}
+
+#heading {
+  background-color:#1e3d59;
+  text-align: center;
+}
+.itemHead{
+  margin: auto;
+}
+.item {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #F1F1F1;
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+input:checked+p {
+  text-decoration: line-through;
+  text-decoration-color: #ff6e40;
+}
+
+input[type="checkbox"] {
+  margin: 20px;
+}
+
+p {
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  color: #00204a;
+}
+
+form.item {
+  text-align: center;
+  margin-left: 20px;
+}
+
+button {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #ff6e40;
+  color: #fff;
+  font-size: 30px;
+
+  border-width: 0;
+}
+
+input[type="text"] {
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 313px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #ff6e40;
+}
+
+::placeholder {
+  color: grey;
+  opacity: 1;
+}
+
+footer {
+  color: white;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+a{
+  color: #1e3d59;
+  font-family: 'Montserrat', sans-serif;
+  margin: 50px 15px;
+  text-decoration: none;
+  font-size: 13px;
+}
+a:hover{
+  color: #ff6e40;
+
+}
+
+.credentials{
+  color: #1e3d59;
+}
